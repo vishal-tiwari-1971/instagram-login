@@ -1,0 +1,388 @@
+  @media (max-width:875px) {
+    /* main section */
+    .main{
+       display:flex;
+      justify-content: center;
+      align-items: center; 
+    }
+ .left{
+   display: none;
+ }
+ /* right section */
+ .right{
+     margin: 10px;
+     height: 100vh;
+     width: 100vw;
+     display: flex;
+     flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+ }
+
+ /* main */
+ .main{
+     display: flex;
+ }
+ 
+ /* facebook login in phone */
+ #fblogin{
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   height: 30px;
+   color: white;
+   background-color: #0095f6;
+   border: none;
+   border-radius: 7px;
+   padding: 7px;
+   
+   margin: 20px 32px ;
+   position: relative;
+   top: 45px;
+
+ }
+ /* facebook logo for phone */
+ .fbphone{
+   height: 20px;
+   width: 20px;
+ }
+ img{
+     height: 200px;
+     width: 200px;
+ }
+  /* mid after log in button */
+ .mid{
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   margin-left: 10px;
+   margin-right:10px ;
+   /* border: 1px solid ; */
+   position: relative;
+   bottom: 150px;
+}
+
+ /* log in first */
+ .login1{
+     /* border: 1px solid grey; */
+     border-radius: 2px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     height: 400px;
+     width: 50vh;
+     margin-bottom: 10px;
+     position: relative;
+ }
+ .logo{ 
+    position: relative;
+    top: 35px;
+     height: 50px;
+     align-self: center;
+     margin-top: 20px;
+     margin-bottom: 10px;
+ }
+ /* login inputs in form type */
+ .form{
+     display: flex;
+     flex-direction: column;
+     align-self: center;
+     margin-top: 15px;
+   border-radius: 10px;
+   gap: 5px;
+   position: relative;
+   top: 55px;
+ }
+/* 
+ form input  */
+ .form input{
+    background-color: #FAFAFA;
+    width: 38vh;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 3px;
+    margin-left: 10px;
+    margin-right:10px ;
+ }
+
+  /* login button */
+  .login{
+     border-radius: 6px;
+     /* width: 60px; */
+     padding: 7px;
+     color: white;
+     background-color: #35acfb;
+     margin: 20px 32px ;
+     position: relative;
+     top: 90px;
+    
+ 
+  }
+ 
+ 
+ hr{
+    width: 15vh;
+ }
+ /* facebook logo */
+ .fblogo{
+    display:none ;
+ }
+
+ /* login through facebook */
+ .facebooklogin{
+   display: none;
+ }
+
+ /* anchor tag  */
+ a{
+    text-decoration: none;
+    color: #0095F6;   
+ }
+.forget{
+   color: #0095F6;
+   padding-left: 25vh;
+   position: relative;
+   bottom: 75px;  
+}
+
+  /* second login box */
+  .login2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 7px;
+    border-radius: 2px;
+     width: 48vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+     bottom: 20px;
+  }
+  span{
+    color:  #0095F6;
+  }
+
+   /* third login box */
+   .login3{
+      display: none;
+  }
+
+}
+
+ @media (min-width:876px) and (max-width:3100px) {
+    
+    /* left section */
+     .left{
+      margin: 10px;
+       height: 100vh;
+       width: 50vw;
+     }
+  .phone{
+      width: 50vh;
+      float: right;
+  }
+   /* background phone image */
+   .back{
+      z-index: 1;
+      height:90%;
+      width: 450px;
+      position:relative;
+      top: 35px;
+      float: right;
+   }
+   /* screen of phone */
+   .ss1{
+      position: absolute;
+      top: 75px;
+      left:425px;
+      z-index: 10;
+      height: 71vh;
+      width: 245px;
+      float: left;
+      
+   }
+   /* right section */
+   .right{
+       margin: 10px;
+       height: 100vh;
+       width: 50vw;
+       display: flex;
+       flex-direction: column;
+      justify-content:center;
+   }
+  
+   /* main */
+   .main{
+       display: flex;
+   }
+   
+   img{
+       height: 200px;
+       width: 200px;
+   }
+  
+   /* continue with facebook button */
+   #fblogin{
+      display:none; 
+        }
+   /* log in first */
+   .login1{
+       border: 1px solid #e3dfdf;
+       border-radius: 2px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       height: 400px;
+       width: 50vh;
+       margin-bottom: 10px;
+       position: relative;
+   }
+   .logo{ 
+      position: relative;
+      top: 35px;
+       height: 50px;
+       align-self: center;
+       margin-top: 20px;
+       margin-bottom: 10px;
+   }
+   /* login inputs in form type */
+   .form{
+       display: flex;
+       flex-direction: column;
+       align-self: center;
+       margin-top: 15px;
+     border-radius: 10px;
+     gap: 5px;
+     position: relative;
+     top: 55px;
+   }
+  /* 
+   form input  */
+   .form input{
+      background-color: #f4f4fcd5;
+      width: 38vh;
+      /* height: 30px; */
+      padding: 10px;
+      border-radius: 3px;
+      margin-left: 10px;
+      margin-right:10px ;
+   }
+  
+    /* login button */
+    .login{
+       border-radius: 6px;
+       /* width: 60px; */
+       padding: 7px;
+       color: white;
+       background-color: #35acfb;
+       margin: 20px 32px ;
+       position: relative;
+       top: 45px;
+   
+    }
+   /* mid after log in button */
+   .mid{
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 10px;
+      margin-right:10px ;
+      /* border: 1px solid ; */
+      position: relative;
+      top: 30px;
+   }
+   
+   hr{
+      width: 15vh;
+   }
+   /* facebook logo */
+   .fblogo{
+      position: relative;
+      top: 20px;
+      left: 10px;
+      height: 25px;
+      width: 25px;
+      margin: 15px;
+      color: #6715da;
+   }
+  
+   /* login through facebook */
+   .facebooklogin{
+      position: relative;
+      bottom: 10px;
+      padding-left: 50px;
+      padding-right: 50px;
+      column-gap: 2px;
+      display: flex;
+      flex-direction: column;
+      /* grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto auto; */
+      justify-content: center;
+      align-items: center;
+      /* border: 1px solid black; */
+      padding-bottom: 20px;
+   }
+  
+   /* anchor tag  */
+   a{
+      text-decoration: none;
+      color: #0095F6;
+   }
+   /* anchor tag in h4 */
+h4 a{
+   color: #385185;
+}
+  .forget{
+      display: flex;
+      justify-content: center;
+      position: relative;
+      bottom: 50px;
+      color: #0095F6;
+  }
+  
+    /* second login box */
+    .login2{
+      margin-top: 10px;
+      margin-bottom: 10px;
+      padding: 7px;
+       border: 1px solid  #e3dfdf;
+       border-radius: 2px;
+       width: 48vh;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       position: relative;
+       bottom: 10px;
+    }
+    span{
+      color:  #0095f6;
+    }
+  
+     /* third login box */
+     .login3{
+      display: flex;
+      flex-direction: column;
+       /* border: 1px solid gray; */
+       width: 50vh;
+       justify-content: center;
+       align-items: center;
+       position: relative;
+       bottom: 30px;
+  
+       /* display: grid; */
+    }
+  
+    /* images in third box */
+    .login3 img{ 
+      /* display: inline; */
+     height: 40px;
+     width: 140px;
+   }
+  
+   .getapp{
+      position: relative;
+      bottom: 10px;
+   }  
+}
