@@ -98,6 +98,7 @@
 /* 
  form input  */
  .form input{
+   border:1px solid #e3dfdf  ;
     background-color: #FAFAFA;
     width: 38vh;
     text-decoration: none;
@@ -109,14 +110,15 @@
 
   /* login button */
   .login{
+   border: 0;
      border-radius: 6px;
      /* width: 60px; */
      padding: 7px;
      color: white;
      background-color: #35acfb;
-     margin: 20px 32px ;
+     margin: 20px 12px ;
      position: relative;
-     top: 90px;
+     top: 30px;
     
  
   }
@@ -263,6 +265,7 @@
    .form input{
       background-color: #f4f4fcd5;
       width: 38vh;
+      border: 1px solid #e3dfdf ;
       /* height: 30px; */
       padding: 10px;
       border-radius: 3px;
@@ -272,14 +275,15 @@
   
     /* login button */
     .login{
+      border: 0;
        border-radius: 6px;
        /* width: 60px; */
        padding: 7px;
        color: white;
        background-color: #35acfb;
-       margin: 20px 32px ;
+       margin: 20px 10px ;
        position: relative;
-       top: 45px;
+       bottom: 10px;
    
     }
    /* mid after log in button */
